@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport"content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+
+html {
+    min-height: 100%; /* This is required to ensure that the gradient stretches across the whole page */
+	border:dashed;
+}
+ h1 {
+ text-shadow: 3px 3px;
+
+ }
+body {
+    background: linear-gradient(green,yellow,blue); /* Standard syntax (must be last) */
+	
+}
+img.wrap {
+padding-top:10px; 
+max-width: 18%; margin: 30px 200px; }
+img.align-left {
+ float: left;
+ margin-right: 200px;
+}
+#para1{
+padding-top:50px;
+  font-size:25px;
+  font-weight:bold;
+
+}
+.navbar-default{
+background: linear-gradient(green,yellow,blue);
+}
+
+.dropdown-menu{
+background: linear-gradient(green,yellow,blue);
+}
+
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand"href="profile.html"style="font-weight:bold">Profile</a>
+</div>
+
+<div>
+<ul class="nav navbar-nav">
+<li><a href="education.html">Education</a></li>
+<li><a href="trainings.html">Trainings</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+More
+<b class="caret"></b> 
+</a>
+<ul class="dropdown-menu">
+<li><a href="work samples.html">Work Samples</a></li>
+<li class="divider"></li>
+<li><a href="certifications.html">Certifications</a></li>
+<li class="divider"></li>
+<li><a href="languages.html">Languages known</a></li> 
+
+</ul>
+</li>
+
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<li><a href="myself.html"><span class="glyphicon glyphicon-user"></span>About Myself</a></li>
+<li><a href="contact.html"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<h1><marquee behavior="alternate"scrollamount="20">Resume</marquee></h1>
+<h2 style="padding-left:200px"><u>Product Specification</u></h2>
+<img class="wrap align-left"src="rishabh.png">
+<p id="para1">
+Name :Rishabh Goel<br>age: 19 Years<br>Course: B.tech<br>Branch: Information technology<br>Contact no. : 9790713934<br>E-mail : rishabhgoel_ji@srmuniv.edu.in<br>Quantity : 1
+<table width="300"border="0">
+<tr>
+<td>
+<form action="contact.html">
+<button class="btn btn-primary"type="Submit">Buy Now</button>
+</form>
+</td>
+<td>
+<form>
+<button class="btn btn-primary"onclick="alert('Sorry!There is no Add to Cart Option Available . You can only Buy this product' )"style="background-color:green;cursor:not-allowed;opacity:0.6">Add to Cart</button>
+</form>
+</td>
+</tr>
+</table
+</p>
+
+</body>
+</html>
